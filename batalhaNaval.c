@@ -14,9 +14,14 @@ int main() {
       }
     }
 
-    for (int i = 0; i < 3; i++) {
-        tabuleiro[2][1 + i] = 3;
-
+    for (int i = 0; i < 1; i++) {
+        tabuleiro[1][1 + i] = 3;
+      for (int i = 0; i < 1; i++) {
+           tabuleiro[2][2 + i] = 3;
+        for (int i = 0; i < 1; i++) {
+           tabuleiro[3][3 + i] = 3;
+        }
+      }
     }
 
     for (int i = 0; i < 3; i++) {
