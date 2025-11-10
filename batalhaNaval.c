@@ -26,6 +26,19 @@ int main() {
 
     for (int i = 0; i < 3; i++) {
         tabuleiro[5 + i][7] = 3;
+      for (int i = 0; i < 1; i++) {
+        tabuleiro[6 + i][5] = 3;
+        for (int i = 0; i < 1; i++) {
+          tabuleiro[6 + i][6] = 3;
+           for (int i = 0; i < 1; i++) {
+            tabuleiro[6 + i][8] = 3;  
+            for (int i = 0; i < 1; i++) {
+              tabuleiro[6 + i][9] = 3;  
+        
+          } 
+         }  
+        }
+      }
     }
 
     printf("--- TABULEIRO BATALHA NAVAL ---\n\n");
